@@ -21,7 +21,7 @@ if os.path.exists(json_file_path):
 else:
     print("Warning: banks.json not found!")
 
-RAPIDAPI_SECRET = "DISABLED"
+RAPIDAPI_SECRET = "029db4b0-b471-11f1-a839-af5bba274475"
 
 def verify_gateway(secret_header: Optional[str]):
     if RAPIDAPI_SECRET != "DISABLED" and secret_header != RAPIDAPI_SECRET:
